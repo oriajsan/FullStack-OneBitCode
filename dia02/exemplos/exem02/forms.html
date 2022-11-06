@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <h1>Alguns exemplos:</h1>
+  <h2>Pesquisa no Google</h2>
+  <form action="https://www.google.com/search">
+    <label for="q">O que deseja pesquisar?</label>
+    <input type="text" id="q" name="q" placeholder="Digite aqui" required>
+    <input type="submit" value="Pesquisar">
+  </form>
+  
+  <h2>Pesquisar email no Google</h2>
+  <form action="https://www.google.com/search">
+    <label for="q">Digite seu email:</label>
+    <input type="email" name="q" id="q" placeholder="ex: fulano@gmail.com" required>
+    <input type="submit" value="Pesquisar">
+  </form>
+
+  <h2>Números com texto giratório</h2>
+  <form action="https://www.google.com/search">
+    <label for="q">Escolha um número:</label>
+    <input type="number" name="q" id="q" placeholder="0-100" required min="0" max="100">
+    <input type="submit" value="Pesquisar">
+  </form>
+</body>
+
+</html>
