@@ -1,8 +1,29 @@
-li {
+.green_text {
   color: green;
+  font-size: 20px;
+}
+
+.big_text {
+  font-size: 30px;
+  color: yellow;
+}
+
+#europa_text {
+  color: white;
+}
+
+li {
+  color: blueviolet;
 }
 
 h1 {
   color: purple;
   font-size: 50px;
+  border: 4px orange dashed;
+}
+
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/450px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
