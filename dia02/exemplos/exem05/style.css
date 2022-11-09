@@ -1,0 +1,32 @@
+/*Serve para aplicar em todos os elementos
+* {
+  border: 2px solid;
+}
+*/
+
+/*Serve para acessar um elemento dentro de outro(s)
+li a {
+  color: red;
+}
+*/
+
+/*Serve para acessar todos os elementos filhos de um elemento
+li > a {
+  color: orangered;
+}
+*/
+
+/*Serve para aplicar a todo elemento após um elemento*/
+h1 + h3 {
+  border: 4px dashed;
+}
+
+/*Serve para aplicar a todo elemento que possuir o atributo específico*/
+a[href="/recibo"] {
+  color: pink;
+}
+
+/*Serve para aplicar a todo elemento saltando no padrão dado*/
+li:nth-of-type(odd) {
+  color: red;
+}
